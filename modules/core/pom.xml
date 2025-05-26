@@ -10,12 +10,11 @@
   <packaging>jar</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
   <description>ImageN core interfaces</description>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.eclipse.imagen</groupId>
-      <artifactId>imagen-codec</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-  </dependencies>
+<dependencies>
+  <dependency>
+    <groupId>org.eclipse.imagen</groupId>
+    <artifactId>imagen-legacy-codec-core</artifactId>
+    <version>${project.version}</version>
+  </dependency>
+</dependencies>
 </project>

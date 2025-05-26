@@ -6,16 +6,13 @@
     <artifactId>imagen</artifactId>
     <version>0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>imagen-demos</artifactId>
+  <artifactId>imagen-legacy</artifactId>
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
 
   <modules>
-    <module>tutorial</module>
-    <module>demo</module>
-    <module>mpv</module>
-    <module>medical</module>
-    <module>network</module>
+    <module>codec-core</module>
+    <module>codec-demo</module>
+    <module>legacy-core</module>
   </modules>
-
 </project>

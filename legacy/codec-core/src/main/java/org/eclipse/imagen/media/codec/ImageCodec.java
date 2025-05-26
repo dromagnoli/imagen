@@ -370,7 +370,7 @@ public abstract class ImageCodec {
      * SeekableStream</code> should override this method in order to avoid the default call to <code>
      * SeekableStream.wrapInputStream(src, true)</code>.
      *
-     * @param dst An <code>InputStream</code> to read from.
+     * @param src An <code>InputStream</code> to read from.
      * @param param An instance of <code>ImageDecodeParam</code> suitable for use with the <code>ImageCodec</code>
      *     subclass, or <code>null</code>.
      * @return An instance of <code>ImageDecoder</code>.
@@ -386,7 +386,7 @@ public abstract class ImageCodec {
      * otherwise, this method will convert the source into a <code>SeekableStream</code> and call the appropriate
      * version of <code>createImageDecoder</code> for that data type.
      *
-     * @param dst A <code>File</code> to read from.
+     * @param src A <code>File</code> to read from.
      * @param param An instance of <code>ImageDecodeParam</code> suitable for use with the <code>ImageCodec</code>
      *     subclass, or <code>null</code>.
      * @return An instance of <code>ImageDecoder</code>.
@@ -399,7 +399,7 @@ public abstract class ImageCodec {
      * In a concrete subclass of <code>ImageCodec</code>, returns an implementation of the <code>ImageDecoder</code>
      * interface appropriate for that codec.
      *
-     * @param dst A <code>SeekableStream</code> to read from.
+     * @param src A <code>SeekableStream</code> to read from.
      * @param param An instance of <code>ImageDecodeParam</code> suitable for use with the <code>ImageCodec</code>
      *     subclass, or <code>null</code>.
      * @return An instance of <code>ImageDecoder</code>.

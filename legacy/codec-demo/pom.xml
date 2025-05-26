@@ -3,19 +3,19 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.eclipse.imagen</groupId>
-    <artifactId>imagen</artifactId>
+    <artifactId>imagen-legacy</artifactId>
     <version>0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>imagen-demos</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>imagen-legacy-codec-demo</artifactId>
+  <packaging>jar</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
+  <description>ImageN codec demo.</description>
 
-  <modules>
-    <module>tutorial</module>
-    <module>demo</module>
-    <module>mpv</module>
-    <module>medical</module>
-    <module>network</module>
-  </modules>
-
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.imagen</groupId>
+      <artifactId>imagen-legacy-codec-core</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
 </project>

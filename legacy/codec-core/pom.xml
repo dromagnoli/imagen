@@ -3,19 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.eclipse.imagen</groupId>
-    <artifactId>imagen-demos</artifactId>
+    <artifactId>imagen-legacy</artifactId>
     <version>0.4-SNAPSHOT</version>
   </parent>
-  <artifactId>imagen-demo-codec</artifactId>
+  <artifactId>imagen-legacy-codec-core</artifactId>
   <packaging>jar</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
-  <description>ImageN codec demo.</description>
-
-  <dependencies>
-    <dependency>
-      <groupId>org.eclipse.imagen</groupId>
-      <artifactId>imagen-core</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-  </dependencies>
+  <description>ImageN encode/decode codecs</description>
 </project>

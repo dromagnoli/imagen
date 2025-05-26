@@ -38,6 +38,7 @@
   <!-- Modules to build in appropriate dependency order -->
   <modules>
     <module>modules</module>
+    <module>legacy</module>
     <module>demos</module>
   </modules>
 
